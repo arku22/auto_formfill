@@ -10,8 +10,8 @@ python3 <script_filename> <pdfform_filename>'
 ```
 
 where, 
- <br/><script_filename> : refers to the name of the file in which this pythonscript is saved as. In my case it is "main.py"
- <br/><pdfform_filename> : refers to the name of the file in which the pdf form is saved as. You may use an absolute path or a relative path.
+ <br/>`<script_filename>` : refers to the name of the file in which this pythonscript is saved as. In my case it is "main.py"
+ <br/>`<pdfform_filename>` : refers to the name of the file in which the pdf form is saved as. You may use an absolute path or a relative path.
   
 ### About the script
 
@@ -24,10 +24,10 @@ I use the following libraries in this script : -
 4. webbrowser
 
 This script accounts for the following field types in a pdf form : -
-  1. Text fields
-  2. Checkboxes/Radio buttons
-  3. Drop down menu
-  
+1. Text fields
+2. Checkboxes/Radio buttons
+3. Drop down menu
+
 ### References
 
 Castiglione, C., 2021. How to Automate Filling In Web Forms with Python - Learn to code in 30 Days. [online] Learn to code in 30 Days. Available at: <https://learn.onemonth.com/automate-web-forms-with-python/>.

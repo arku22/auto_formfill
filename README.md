@@ -4,7 +4,7 @@
 I came across a company called Carta Healthcare (www.carta.healthcare) that works with clinicians to support data abstraction for registeries, QI projects, and research. I wanted to try to replicate this task of automating the process of filling up registeries with the same data over and over again.
 
 ### How to run the script
-To run this script, open up the terminal window, change the directory to directory containing the python3 script using the command "cd", and type in the following command : -
+To run this script, open up the terminal window, change the directory to the directory containing the python3 script using the command "cd", and type in the following command : -
 'python3 <script_filename> <pdfform_filename>'
 
 where, 

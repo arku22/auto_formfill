@@ -1,6 +1,19 @@
-This project aims to be able to write a Python script to be able to parse a pdf form file(AcroForm), read the data entered into the respective fields in the pdf, generate JavaScript code to be used to automatically fill up a web form.
+# auto_formfill
 
-Motivation : I came across a company called Carta Healthcare(www.carta.healthcare) that works with clinicians to support data abstraction for registeries, QI projects, and research. I wanted to try to replicate this task of automating the process of filling up registeries with the same data over and over again.
+### Motivation
+I came across a company called [Carta Healthcare](www.carta.healthcare) that works with clinicians to support data abstraction for registeries, QI projects, and research. I wanted to try to replicate this task of automating the process of filling up registeries with the same data over and over again.
+
+### How to run the script
+To run this script, open up the terminal window, change the directory to directory containing the python3 script using the command "cd", and type in the following command : -
+'python3 <script_filename> <pdfform_filename>'
+
+where, 
+  <script_filename> : refers to the name of the file in which this pythonscript is saved as. In my case it is "main.py"
+  <pdfform_filename> : refers to the name of the file in which the pdf form is saved as. You may use an absolute path or a relative path.
+  
+### About the script
+
+This project aims to be able to write a Python script to be able to parse a pdf form file(AcroForm), read the data entered into the respective fields in the pdf, generate JavaScript code to be used to automatically fill up a web form.
 
 I use the following libraries in this script : -
 1. PyPDF2 (version 1.26.0)
@@ -8,19 +21,12 @@ I use the following libraries in this script : -
 3. pyperclip (version 1.8.0)
 4. webbrowser
 
-To run this script, open up the terminal window, change the directory to directory containing the python3 script using the command "cd", and type in the following command : -
->> python3 <script_filename> <pdfform_filename>
-
-where, 
-  <script_filename> : refers to the name of the file in which this pythonscript                       is saved as. In my case it is "main.py"
-  <pdfform_filename> : refers to the name of the file in which the pdf form is                          saved as. You may use an absolute path or a relative                            path.
-  
 This script accounts for the following field types in a pdf form : -
   1. Text fields
   2. Checkboxes/Radio buttons
   3. Drop down menu
   
-REFERENCES : -
+### References
 
 Castiglione, C., 2021. How to Automate Filling In Web Forms with Python - Learn to code in 30 Days. [online] Learn to code in 30 Days. Available at: <https://learn.onemonth.com/automate-web-forms-with-python/>.
 

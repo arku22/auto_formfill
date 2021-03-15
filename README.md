@@ -10,8 +10,8 @@ python3 <script_filename> <pdfform_filename>'
 ```
 
 where, 
- \n<script_filename> : refers to the name of the file in which this pythonscript is saved as. In my case it is "main.py"
- \n<pdfform_filename> : refers to the name of the file in which the pdf form is saved as. You may use an absolute path or a relative path.
+ <br/><script_filename> : refers to the name of the file in which this pythonscript is saved as. In my case it is "main.py"
+ <br/><pdfform_filename> : refers to the name of the file in which the pdf form is saved as. You may use an absolute path or a relative path.
   
 ### About the script
 
